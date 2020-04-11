@@ -1,0 +1,14 @@
+//---------------------------------------------------------------------------
+//
+// Name:        Proyecto1App.rc
+// Author:      Ricardo_Camacho_Diaz_cano
+// Created:     11/04/2020 12:44:17
+// Description: Implementar en un nuevo proyecto una calculadora con todos 
+//los numeros
+//---------------------------------------------------------------------------
+
+#ifdef _WIN64
+#define WX_CPU_AMD64
+#endif
+
+#include <wx/msw/wx.rc>
